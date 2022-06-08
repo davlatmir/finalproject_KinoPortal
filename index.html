@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Киномонстр - это портал о кино" />
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="assets/css/stle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="assets/js/script.js"></script>
+    <title>КиноПортал</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">КиноПортал</a></h1>
+                    <h2>Кино для всей семьи и всех поколений.</h2>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="selected"><a href="index.html">Главное</a></li>
+                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="serial.html">Сериалы</a></li>
+                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="site_content">
+            <div class="sidebar_container">
+
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="ваш запрос" />
+                        <input type="submit" class="btn" value="найти" onclick="alert('на стадии разработки...')" />
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="post" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="логин" />
+                        <input type="password" name="password_field" placeholder="пароль" />
+                        <input type="submit" class="btn" value="вход" onclick="alert('на стадии разработки...')" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#" onclick="alert('на стадии разработки...')">забыли пароль?</a></span> |
+                            <span><a href="#" onclick="alert('на стадии разработки...')">регистрация</a></span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <p class="h2"><a href="https://www.kinonews.ru/">Новости</a></p>
+                    <span>Большинство зрителей не смогло досмотреть "Лигу справедливости Зака Снайдера"</span>
+                    <p>Стала известна удручающая статистика экранизации комиксов DC</p>
+                    <a href="https://www.kinonews.ru/news_99138/">читать</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2><a href="rating.html">Рейтинг Фильмов</a></h2>
+                    <ul>
+                        <li><a href="Interstellar.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+                        <li><a href="matrix.html">Матрица</a><span class="rating_sidebar">8.0</span></li>
+                        <li><a href="max.html">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
+                        <li><a href="cloud.html">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинг сериалов</h2>
+                    <ul>
+                        <li><a href="#">Ходячие мертвецы</a><span class="rating_sidebar">7.9</span></li>
+                        <li><a href="#">Силиконовая долина</a><span class="rating_sidebar">8.3</span></li>
+                        <li><a href="#">Во все тяжкие</a><span class="rating_sidebar">8.9</span></li>
+                        <li><a href="#">Секретные материалы</a><span class="rating_sidebar">8.2</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        <div class="content">
+            <h1><a href="films.html">Новые фильмы</a></h1>
+            <div class="films_block">
+                <a href="matrix.html"><img src="assets/img/matrix.png"></a>
+                <a href="max.html"><img src="assets/img/max.png"></a>
+                <a href="Interstellar.html" target="_blank"><img src="assets/img/inter.png"></a>
+                <a href="cloud.html"><img src="assets/img/cloud.png"></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2><a href="serial.html">Новые Сериалы</a></h2>
+            <div class="films_block">
+                <a href="#" onclick="alert('на стадии разработки...')"><img src="assets/img/dead.png"></a>
+                <a href="#" onclick="alert('на стадии разработки...')"><img src="assets/img/silicon.png"></a>
+                <a href="#" onclick="alert('на стадии разработки...')"><img src="assets/img/breakingbad.png"></a>
+                <a href="#" onclick="alert('на стадии разработки...')"><img src="assets/img/xfiles.png"></a>
+            </div>
+            <div class="posts">
+                <hr>
+                <h1> <a href="#">Как снимали Интерстеллар</a></h2>
+                <div class="posts_content">
+                    <p>
+                        Два года назад Кристофер Нолан обсуждал детали своего нового проекта с достаточно неожиданным
+                        соавтором. Кип Торн - известнейший физик-теоретик и потенциальный исполнительный продюсер
+                        фильма, который Нолан так хотел снять.
+
+                    </p>
+
+
+                </div>
+                <p><a href="https://kino-teatr.ua/articles/interstellar-za-kadrom-4006.phtml">читать</a></p>
+            </div>
+            <div class="posts">
+                <hr>
+                <h2> <a href="#">Marvel раскрыли настоящего злодея фильма «Черная вдова»</a></h2>
+                <div class="posts_content">
+                    <p>
+                        Ожидается, что фильм «Чёрная вдова» станет лебединой песней Наташи Романофф в киновселенной
+                        Marvel, а значит, лента должна будет завершить все сюжетные линии героини. События фильма
+                        происходят между «Первым мстителем: Противостояние» и «Мстителями: Война бесконечности», а также
+                        попутно затрагивают травматическое прошлое Наташи в Красной комнате. В последние...
+
+                    </p>
+
+
+                </div>
+                <p><a
+                        href="https://pluggedin.ru/open/Marvel-raskryli-nastoyaschego-zlodeya-filyma-chernaya-vdova-30580">читать</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>
+            <a href="index.html">Главная</a> |
+            <a href="films.html">Фильмы</a> |
+            <a href="serial.html">Сериалы</a> |
+            <a href="rating.html">Рейтинг фильмов</a> |
+            <a href="contact.html">Контакты</a>
+        </p>
+        <p>© 2021. Все права защищены в ЗАО "Davlatmir-WD".</p>
+    </div>
+
+</body>
+
+</html>

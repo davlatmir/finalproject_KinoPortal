@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Киномонстр - это портал о кино" />
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="assets/css/stle.css">
+    <title>Matrix</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">КиноПортал</a></h1>
+                    <h2>Кино для всей семьи и всех поколений.</h2>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li><a href="index.html">Главное</a></li>
+                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="serial.html">Сериалы</a></li>
+                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="site_content">
+        <div class="sidebar_container">
+            <div class="sidebar">
+                <h2>Поиск</h2>
+                <form method="POST" action="#" id="search_form">
+                    <input type="search" name="search_field" placeholder="ваш запрос" />
+                    <input type="submit" class="btn" value="найти" onclick="alert('на стадии разработки...')" />
+                </form>
+            </div>
+            <div class="sidebar">
+                <h2>Вход</h2>
+                <form method="POST" action="#" id="login">
+                    <input type="text" name="login_field" placeholder="логин" />
+                    <input type="password" name="password_field" placeholder="пароль" />
+                    <input type="submit" class="btn" value="вход" onclick="alert('на стадии разработки...')" />
+                    <div class="lables_passreg_text">
+                        <span><a href="#" onclick="alert('на стадии разработки...')">забыли пароль?</a></span> |
+                        <span><a href="#" onclick="alert('на стадии разработки...')">регистрация</a></span>
+                    </div>
+                </form>
+            </div>
+            <div class="sidebar">
+                <p class="h2"><a href="https://www.kinonews.ru/">Новости</a></p>
+                <span>Большинство зрителей не смогло досмотреть "Лигу справедливости Зака Снайдера"</span>
+                <p>Стала известна удручающая статистика экранизации комиксов DC</p>
+                <a href="https://www.kinonews.ru/news_99138/">читать</a>
+            </div>
+            <div class="sidebar">
+                <h2><a href="rating.html">Рейтинг Фильмов</a></h2>
+                <ul>
+                    <li><a href="Interstellar.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+                    <li><a href="matrix.html">Матрица</a><span class="rating_sidebar">8.0</span></li>
+                    <li><a href="#">Безмуный Макс</a><span class="rating_sidebar">7.5</span></li>
+                    <li><a href="#">Облачный Атлас</a><span class="rating_sidebar">7.4</span></li>
+                </ul>
+            </div>
+            <div class="sidebar">
+                <h2><a href="#">Рейтинг сериалов</a></h2>
+                <ul>
+                    <li><a href="#">Ходячие мертвецы</a><span class="rating_sidebar">7.9</span></li>
+                    <li><a href="#">Силиконовая долина</a><span class="rating_sidebar">8.3</span></li>
+                    <li><a href="#">Во все тяжкие</a><span class="rating_sidebar">8.9</span></li>
+                    <li><a href="#">Секретные материалы</a><span class="rating_sidebar">8.2</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Матрица</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YihPA42fdQ8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="info_film_page">
+                <span class="label">Рейтинг: </span><span class="value">8 / 10</span>
+                <span class="label">год: </span><span class="value">1999</span>
+                <span class="label">Режисер: </span><span class="value">Лана Вачовски, Лилли Вачовски</span>
+            </div>
+            <hr>
+
+            <h2>Описание Матрица</h2>
+            <div class="description_film">
+                <img src="assets/img/matrix.png">
+                Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий
+                нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он бы не
+                смог проникнуть. Но однажды всё меняется. Томас узнаёт ужасающую правду о реальности.
+            </div>
+
+            <hr>
+
+            <h2>Отзывы об Матрица</h2>
+            <div class="reviews">
+                <div class="reviews_name">
+                    Давлатмир
+                </div>
+                <div class="reviews_text">
+                    Отличный фильм, 3 часа пролетели не заметно.
+                </div>
+                <div class="reviews_name">
+                    Фаррух
+                </div>
+                <div class="reviews_text">
+                    Хороший фильм.
+                </div>
+                <div class="send">
+                    <form method="post" action="#" id="review">
+                        <input type="text" name="review_name" placeholder="Ваше имя">
+                        <textarea name="review_text"></textarea>
+                        <input type="submit" value="отправить" onclick="alert('Спасибо, за ваше коментарии')">
+                    </form>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>
+            <a href="index.html">Главная</a> |
+            <a href="films.html">Фильмы</a> |
+            <a href="serial.html">Сериалы</a> |
+            <a href="rating.html">Рейтинг фильмов</a> |
+            <a href="contact.html">Контакты</a>
+        </p>
+        <p>© 2021. Все права защищены в ЗАО "Davlatmir-WD".</p>
+    </div>
+
+</body>
+
+</html>
